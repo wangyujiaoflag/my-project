@@ -43,3 +43,21 @@ code .git/hooks
 
 - [前端 Git-Hooks 工程化实践 ](https://www.cnblogs.com/dtux/p/16419271.html)
 - [谁动了我的代码！(协同仓库该有的规范)🔥](https://segmentfault.com/a/1190000041403438)
+
+4. eslint 配置
+
+```bash
+# 安装依赖
+npm i eslint -D
+npx eslint --init
+npm install @typescript-eslint/parser --save-dev
+npm install vue-eslint-parser --save-dev
+```
+
+5. lint-staged
+
+```bash
+# 安装依赖
+npm install lint-staged --save-dev
+
+```
