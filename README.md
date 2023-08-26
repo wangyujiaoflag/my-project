@@ -59,5 +59,12 @@ npm install vue-eslint-parser --save-dev
 ```bash
 # 安装依赖
 npm install lint-staged --save-dev
-
+# .husky/pre-commit 添加 "npx lint-staged"
+npx husky add .husky/pre-commit "npx lint-staged"
+# package.json 配置
+  "lint-staged": {
+    "*.{js,ts,vue}": [
+      "eslint"
+    ]
+  },
 ```
